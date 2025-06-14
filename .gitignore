@@ -1,0 +1,4 @@
+scanner.exe
+__pycache__/
+output.json
+.env

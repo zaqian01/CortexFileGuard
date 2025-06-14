@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cortex FileGuard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Cortex FileGuard</h1>
+
+    <button id="scanBtn">🔍 Scan Folder</button>
+
+    <div style="margin-top: 1rem;">
+      <label><input type="checkbox" class="filter" value=".exe"> .exe</label>
+      <label><input type="checkbox" class="filter" value=".txt"> .txt</label>
+      <label><input type="checkbox" class="filter" value=".cpp"> .cpp</label>
+      <label><input type="checkbox" class="filter" value=".py"> .py</label>
+    </div>
+
+    <button id="exportBtn" style="margin-top: 1rem;">⬇️ Export to CSV</button>
+
+    <div id="result" style="margin-top: 1rem;"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
