@@ -1,91 +1,90 @@
-🛡️ Cortex FileGuard: Aplikasi Pemindai & Pengunggah Berkas
-Cortex FileGuard adalah aplikasi web fullstack modern yang memungkinkan pengguna untuk mengunggah, memindai, dan mengelola berkas dengan aman secara real-time. Proyek ini mendemonstrasikan kemampuan saya dalam membangun sistem terintegrasi menggunakan Flask untuk backend, JavaScript untuk logika frontend, dan HTML/CSS untuk antarmuka pengguna yang responsif.
+🛡️ Cortex FileGuard: File Scanner & Uploader App
+Cortex FileGuard is a modern full-stack web application that allows users to upload, scan, and manage files securely in real-time. This project demonstrates my ability to build integrated systems using Flask for the backend, JavaScript for frontend logic, and HTML/CSS for a responsive UI.
 
-✨ Fitur Utama
-Unggah Berkas: Pengunggahan berkas yang aman melalui antarmuka frontend.
+✨ Features
+File Upload: Upload any file type securely through the frontend interface.
 
-Pemindaian Berkas: Daftar berkas yang diunggah dengan detail jalur.
+File Scanning: List all uploaded files stored on the server with path details.
 
-Filter Berkas: Pemfilteran berkas berdasarkan ekstensi (contoh: .txt, .cpp, .py).
+File Filtering: Easily filter files by extensions (.txt, .cpp, .py, etc.).
 
-Ekspor CSV: Ekspor hasil pemindaian ke format .csv.
+CSV Export: Export scanned file results to .csv for local download.
 
-Integrasi API Backend: Penggunaan Flask API untuk operasi berkas.
+Backend API Integration: All file operations are handled via a Flask API hosted on Replit.
 
-💻 Teknologi yang Digunakan
-HTML5 & CSS3: Tata letak dan UI responsif.
+💻 Technologies Used
+HTML5 & CSS3: For layout and responsive UI
 
-JavaScript (ES6+): Logika sisi klien dan komunikasi API.
+JavaScript (ES6+): For client-side logic and API communication
 
-Python Flask: Framework server backend.
+Python Flask: As the backend server framework
 
-Flask-CORS: Keamanan permintaan API lintas asal.
+Flask-CORS: For secure cross-origin API requests
 
-Replit Hosting: Hosting cloud untuk backend Flask.
+Replit Hosting: Lightweight cloud hosting for Flask backend
 
-🚀 Demo Langsung
-🔧 Backend API (Flask): https://43dfed3e-86a1-4e9b-b160-a113c43a161a-00-3o1n8apeb2lgp.sisko.replit.dev
+🚀 Live Demo
+Backend API (Flask): https://43dfed3e-86a1-4e9b-b160-a113c43a161a-00-3o1n8apeb2lgp.sisko.replit.dev
 
-💻 Frontend (Netlify): https://cortex-file-guard.netlify.app/
+Frontend (Netlify): https://cortex-file-guard.netlify.app/
 
-⚙️ Cara Menjalankan Secara Lokal
-Ikuti langkah-langkah berikut untuk mencoba Cortex FileGuard di mesin Anda sendiri:
+⚙️ How to Run Locally
+Follow these steps to try Cortex FileGuard on your own machine:
 
-Kloning Repositori:
-
+🔹 Clone the Repository
 git clone https://github.com/zaqian01/CortexFileGuard.git
 
-Navigasi ke Frontend:
-
+🔹 Navigate to Frontend
 cd CortexFileGuard/web
 
-Jalankan Frontend:
+🔹 Run Frontend
+Open index.html in your browser.
 
-Buka index.html di browser. Pastikan untuk memperbarui BACKEND_URL di script.js.
+Important: Don't forget to update the BACKEND_URL in script.js to your actual Replit backend URL!
 
 🔌 API Endpoints
-Metode
+Method
 
 Endpoint
 
-Deskripsi
+Description
 
 GET
 
 /
 
-Pemeriksaan kesehatan backend
+Health check for backend
 
 POST
 
 /upload
 
-Unggah berkas (form-data)
+Upload a file (form-data)
 
 GET
 
 /files
 
-Daftar nama berkas yang diunggah
+List uploaded filenames
 
 GET
 
 /scan
 
-Jalur lengkap berkas yang diunggah
+Return full paths of uploaded files
 
 GET
 
 /download/<filename>
 
-Unduh berkas tertentu
+Download a specific file
 
-🤝 Berkontribusi
-Kontribusi sangat diharapkan! Silakan buka issue atau kirimkan pull request.
+🤝 Contributing
+Contributions are welcome! Feel free to open an issue or submit a pull request for improvements or new features.
 
-✉️ Hubungi
+✉️ Contact Me
 GitHub: github.com/zaqian01
 
 Email: zaqianel@gmail.com
 
-© 2025 ZAQIAN. Semua Hak Dilindungi.
+© 2025 ZAQIAN. All Rights Reserved.
